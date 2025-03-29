@@ -78,7 +78,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `Movie Plus bot connected ✅`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/21BML7g7/favicon.png` }, caption: up })
 
 }
 })
