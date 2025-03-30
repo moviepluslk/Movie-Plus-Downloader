@@ -76,7 +76,8 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `mtv bot connected ✅`;
+let up = `𝗠𝗢𝗩𝗜𝗘 𝗣𝗟𝗨𝗦 𝗟𝗞
+බොට් සාර්ථකව සම්බන්ද විය`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://www.guru.com/blog/wp-content/uploads/2022/10/how-to-develop-whatsapp-bot.jpg` }, caption: up })
 
