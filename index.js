@@ -58,7 +58,7 @@ const conn = makeWASocket({
         auth: state,
         version
         })
-    
+
 conn.ev.on('connection.update', (update) => {
 const { connection, lastDisconnect } = update
 if (connection === 'close') {
@@ -76,9 +76,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `Movie Plus bot connected ✅`;
+let up = `mtv bot connected ✅`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/21BML7g7/favicon.png` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://www.guru.com/blog/wp-content/uploads/2022/10/how-to-develop-whatsapp-bot.jpg` }, caption: up })
 
 }
 })
@@ -145,8 +145,8 @@ if(!isOwner && MODE === "private") return
 if(!isOwner && isGroup && MODE === "inbox") return
 if(!isOwner && !isGroup && MODE === "groups") return
 //=============================================
-           
-        
+
+
 
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
@@ -178,7 +178,7 @@ mek.type === "stickerMessage"
 ) {
 command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply})
 }});
-           
+
 })
 }
 app.get("/", (req, res) => {
